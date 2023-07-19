@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightskyblue;
+}
+
+.container {
+    max-width: 960px;
+    margin: 10px auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 50px;
+
+}
+
+.navbar {
+    transition: all 0.4s ease;
+
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Segoe UI;
+    text-shadow: 0px;
+}
+
+.navbar-nav .nav-link {
+    padding: 10px 15px;
+    font-size: 18px;
+    font-family: Tahoma;
+}
+
+@media (max-width: 767px) {
+    .navbar {
+        background-color: #333;
+    }
+
+    .navbar-toggler {
+        border-color: #fff;
+    }
+
+    .navbar-toggler-icon {
+        background-color: #fff;
+    }
+
+    .navbar-nav .nav-link {
+        color: #fff;
+    }
+}
+
+
+/* Sections */
+.section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Projects */
+.img-1 {
+    width: 100%;
+    height: auto;
+    border-radius: 50px;
+}
+
+.img-2 {
+    width: 100%;
+    height: auto;
+    border-radius: 50px;
+}
+
+.project {
+    margin-bottom: 40px;
+}
+
+.project img {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 10px;
+}
+
+.project h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Contact Form */
+form input,
+form textarea,
+form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
